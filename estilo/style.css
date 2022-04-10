@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'techfont';
+    src: url(../zprojeto/fonte/Techfont.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../imagens/tech.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #22333B;
+    padding: 15px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 1.2em;
+    transition: ease .5s;
+}
+
+nav > a:first-child {
+    margin-left: 0px;
+}
+
+nav > a:hover {
+    background-color: #0582ca;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.box {
+    position: absolute;
+    background-color: #0582ca;
+    padding: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 5px 6px 9px rgba(0, 0, 0, 0.253);
+}
+
+div.box h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #ffff;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #22333B;
+    font-size: 1em;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input:focus {
+    border-bottom: 3px solid #121b1f;
+    transition: all .2s ease-in-out;
+    transform-origin: left;
+}
+
+div.center {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    transition: ease .5s;
+}
+
+button:hover {
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+p {
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+footer img {
+    width: 36px;
+}
