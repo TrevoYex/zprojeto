@@ -47,6 +47,22 @@ header a:hover {
     text-decoration: underline;
 }
 
+nav {
+    background-color: black;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+nav > a:hover {
+    color: gray;
+}
+
 section {
     font-family: var(--fonte3);
     padding-top: 10vh;
