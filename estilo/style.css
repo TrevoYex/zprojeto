@@ -13,28 +13,52 @@
 body {
     background-image: url(../imagens/tech.jpg);
     font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
 }
+
+/*NAV*/
 
 nav {
     background-color: #22333B;
+    border-radius: 0px 0px 7px 7px;
     padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
-nav > a {
+.title {
+    color: white;
+    line-height: 20px;  
+    padding-left: 20px;
+}
+
+.title h1 {
+    font-size: 1.4em;
+    font-weight: 200;
+}
+
+.menu a {
     text-decoration: none;
     color: white;
-    margin: 20px;
     font-size: 1.2em;
     transition: ease .5s;
+    padding: 20px;
 }
 
-nav > a:first-child {
+.menu > a:first-child {
     margin-left: 0px;
 }
 
-nav > a:hover {
+.menu > a:hover {
     color: #0582ca;
 }
+
+/*BOX*/
 
 div.box {
     position: absolute;
@@ -122,16 +146,36 @@ footer img {
     width: 36px;
 }
 
+@media (max-width: 750px) {
+    .box {
+        width: 250px;
+    }
+}
+
 @media (max-width: 500px) {
+    .title {
+        font-size: 0.8em;
+    }
+
     .box {
         width: 200px;
         margin-top: 25px;
     }
+
+    .title {
+        display: none;
+    }
+
     nav {
         display: flex;
-        height: 20px;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 0px;
+    }
+
+    .menu a {
+        font-size: 1em;
     }
 
     nav a {
