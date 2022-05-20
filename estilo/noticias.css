@@ -86,3 +86,12 @@ footer {
     font-size: 1em;
     padding: 5px;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #37515e;
+}

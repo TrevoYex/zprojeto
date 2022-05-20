@@ -12,8 +12,8 @@
         
         <nav>
             <a href="zinicio.html" target="_self" rel="next">Home</a>
-            <a href="lading-page-autoral/index.html" target="_self" rel="next">Landing Page</a> <!--Mudança temporaria, dps volta com o 'contato'-->
-            <a href="teste014/horadodia.html" target="_self" rel="next">Hora</a>
+            <a href="contato.html" target="_self" rel="next">Contato</a>
+            <a href="noticias.html" target="_self" rel="next">Notícias</a>
         </nav>
 
         <div class="box">
@@ -23,7 +23,7 @@
                     <input type="text" id="name" required placeholder="Seu nome">
                     <input type="password" id="password" required placeholder="Sua senha">
                     <div class="center">
-                        <button>Entrar</button>
+                        <button onclick="aviso()">Entrar</button>
                     </div>
                      <p>Ou entre com suas redes sociais</p>
                     <footer>
@@ -38,5 +38,13 @@
             </main>
         </div>
     </div>
+
+    <script>
+        window.alert('Essa é uma página somente com fins demonstrativos')
+
+        function aviso() {
+            window.alert('Não precisa de conta, é tudo demonstração!')
+        }
+    </script>
 </body>
 </html>

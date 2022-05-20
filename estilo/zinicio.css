@@ -117,10 +117,57 @@ main .img-pequena {
     margin: auto;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section h1 {
+    padding-bottom: 25px;
+}
+
+section a {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
 footer {
     background-color: #22333b;
     color: white;
     text-align: center;
     font-size: 1em;
     padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #37515e;
+}
+
+@media (max-width: 450px) {
+    header p {
+        font-size: 0.9em;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav:first-child {
+        text-indent: 0px;
+    }
+
+    section h1 {
+        font-size: 1.5em;
+        padding-bottom: 15px;
+    }
 }
