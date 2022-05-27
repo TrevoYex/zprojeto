@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="./base.css" />
+
+<section class="container second-area">
+	<h2>Centralizando Vertical e Horizontalmente:</h2>
+	<h3>Position + Tamanhos + Margin auto</h3>
+    <p>obs: Só vai funcionar se tiver altura e largura definidos (nesse exemplo está em '.square')</p>
+    <style contenteditable="true">
+    .wrapper2 {
+        position: relative;
+        height: 200px;
+        background: #ebebeb;
+    }
+    .square {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        margin: auto;
+        /*Aqui pra baixo só tem estilo*/
+        background-color: orange;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    </style>
+	<div class="wrapper wrapper2">	
+		<div class="square"><p>Elemento</p></div>
+	</div>
+</section>
