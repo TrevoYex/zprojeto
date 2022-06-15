@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(173, 216, 230);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -36,7 +36,7 @@ body {
 .box button {
     padding: 10px;
     border: none;
-    background-color: blueviolet;
+    background-color: rgb(138, 43, 226);
     color: white;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -44,4 +44,21 @@ body {
 
 .box button:hover {
     cursor: pointer;
+}
+
+ footer {
+    display: flex;
+    background-color: #0581FF;
+    color: white;
+    height: 25px;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #14A3FD;
 }
