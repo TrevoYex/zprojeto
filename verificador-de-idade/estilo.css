@@ -17,8 +17,30 @@ section {
     box-shadow: rgba(0, 0, 0, 0.322) 5px 5px 10px;
 }
 
+input#botao {
+    padding: 10px;
+    width: 150px;
+    border-radius: 6px;
+    border: 0.3px black solid;
+    font-size: 15px;
+}
+
+input#botao:hover {
+    cursor: pointer;
+}
+
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+@media screen and (max-width: 550px) {
+    section {
+        width: 380px;
+    }
+
+    header h1 {
+        font-size: 1.7em;
+    }
 }
