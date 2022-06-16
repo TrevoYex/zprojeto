@@ -40,10 +40,12 @@ body {
     color: white;
     border-radius: 6px;
     margin-bottom: 10px;
+    transition: 0.3s all;
 }
 
 .box button:hover {
     cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.733);
 }
 
  footer {
