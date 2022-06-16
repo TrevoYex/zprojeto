@@ -37,6 +37,16 @@ footer {
 
 @media screen and (max-width: 550px) {
     section {
+        width: 450px;
+    }
+
+    header h1 {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    section {
         width: 350px;
     }
 
