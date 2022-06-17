@@ -51,6 +51,6 @@ img {
 @media screen and (max-width: 460px) {
     img {
         width: 250px;
-        padding-top: 50px;
+        padding-top: 0px;
     }
 }
