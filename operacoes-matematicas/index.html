@@ -20,19 +20,19 @@
         //pedir para o usuario digitar um numero
             var number1 = prompt('Digite um número:')
             //converter em numero inteiro
-            number1 = parseFloat(number1)               
+            number1 = parseInt(number1)               
             //pedir para o usuario digitar outro numero
             //converter em numero inteiro
-            var number2 = parseFloat(prompt('Digite outro número:'))    
+            var number2 = parseInt(prompt('Digite outro número:'))    
             
             //mostrar a subtração concatenando com o texto "a subtração é: ..."
-            res.innerHTML = 'A subtração de ' + number1 + ' - ' + number2 + ' = ' + (number1 - number2) + ' <br>' 
+            res.innerHTML = 'A subtração é ' + number1 + ' - ' + number2 + ' = ' + (number1 - number2) + ' <br>' 
             //mostrar a multiplicação concatenando com o texto "a multiplicação é: ..."
-            res.innerHTML += 'A multiplicação de ' + number1 + ' x ' + number2 + ' = ' + (number1 * number2) + ' <br>'
+            res.innerHTML += 'A multiplicação é ' + number1 + ' x ' + number2 + ' = ' + (number1 * number2) + ' <br>'
             //mostrar a divisão concatenando com o texto "a divisão é: ..."
-            res.innerHTML += 'A divisão de ' + number1 + ' : ' + number2 + ' = ' + (number1 / number2) + ' <br>'
+            res.innerHTML += 'A divisão é ' + number1 + ' : ' + number2 + ' = ' + (number1 / number2) + ' <br>'
             //mostrar a soma concatenando com o texto "a soma é: ..."
-            res.innerHTML += 'A soma de ' + number1 + ' + ' + number2 + ' = ' + (number1 + number2) + ' <br>'
+            res.innerHTML += 'A soma é ' + number1 + ' + ' + number2 + ' = ' + (number1 + number2) + ' <br>'
         }
             var res = document.querySelector('.res')
     </script>
