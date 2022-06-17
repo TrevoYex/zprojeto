@@ -32,17 +32,25 @@ button:hover {
 
 img {
     width: 400px;
-    padding-top: 60px;
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 685px) {
+    img {
+        padding-top: 20px;
+    }
 }
 
 @media screen and (max-width: 540px) {
     img {
         width: 350px;
+        
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 460px) {
     img {
-        width: 300px;
+        width: 250px;
+        padding-top: 50px;
     }
 }
