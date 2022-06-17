@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href='images/Icons8-Ios7-Science-Math.ico' type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Lógica de Programação com JavaScript</title>
+
+</head>
+<body>
+    <h1>Operações matemáticas</h1>
+    <button onclick="mostrar()">Mostrar resultados</button>
+    <div class="res"></div>
+    <img src="images/undraw_exams_re_4ios.svg" alt="ilustração">
+
+    <script>
+        function mostrar() {
+        //pedir para o usuario digitar um numero
+            var number1 = prompt('Digite um número:')
+            //converter em numero inteiro
+            number1 = parseFloat(number1)               
+            //pedir para o usuario digitar outro numero
+            //converter em numero inteiro
+            var number2 = parseFloat(prompt('Digite outro número:'))    
+            
+            //mostrar a subtração concatenando com o texto "a subtração é: ..."
+            res.innerHTML = 'A subtração de ' + number1 + ' - ' + number2 + ' = ' + (number1 - number2) + ' <br>' 
+            //mostrar a multiplicação concatenando com o texto "a multiplicação é: ..."
+            res.innerHTML += 'A multiplicação de ' + number1 + ' x ' + number2 + ' = ' + (number1 * number2) + ' <br>'
+            //mostrar a divisão concatenando com o texto "a divisão é: ..."
+            res.innerHTML += 'A divisão de ' + number1 + ' : ' + number2 + ' = ' + (number1 / number2) + ' <br>'
+            //mostrar a soma concatenando com o texto "a soma é: ..."
+            res.innerHTML += 'A soma de ' + number1 + ' + ' + number2 + ' = ' + (number1 + number2) + ' <br>'
+        }
+            var res = document.querySelector('.res')
+    </script>
+</body>
+</html>
