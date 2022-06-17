@@ -11,8 +11,8 @@ div.container {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
-    padding: 80px;
+    width: 250px;
+    padding: 60px;
     border-radius: 8px;
 }
 
@@ -31,7 +31,7 @@ h1::before {
     position: absolute;
     border-bottom: 5px solid #2E5E57;
     width: 50px;
-    bottom: 305px;
+    bottom: 285px;
     border-radius: 8px;
 }
 
@@ -81,4 +81,10 @@ button:hover {
     background-color: black;
     letter-spacing: 1px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 200px;
+    }
 }
