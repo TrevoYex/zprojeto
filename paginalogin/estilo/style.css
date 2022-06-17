@@ -101,4 +101,9 @@ button:hover {
     .container {
         width: 150px;
     }
+
+    input {
+        width: 170px;
+        align-items: center;
+    }
 }
